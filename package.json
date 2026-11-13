@@ -1,0 +1,15 @@
+{
+  "name": "my-mining-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket to Stratum proxy for browser Monero mining",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "coin-hive-stratum": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
